@@ -37,6 +37,13 @@ input {
     left: 50%;
     margin-left: -210px;
     border-radius: 10px; }
+
+
+/* Media Query */
+
+
+
+
   #viewport li {
     min-width: 400px;
     min-height: 400px;
@@ -51,7 +58,7 @@ input {
     padding-top: 10px;
     text-align: center;
     font-size: 2.5em;
-    
+
     border: 10px solid #ECECEC;
     box-sizing: border-box;
     cursor: default; }
