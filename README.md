@@ -82,4 +82,4 @@
 <h1>Links</h1>
 <h4>Heroku</h4>
 <h4>Github</h4>
-<p>https://github.com/joshricha/project_2</p>
+<p>https://github.com/gafrong/clovet</p>
