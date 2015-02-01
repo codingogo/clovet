@@ -1,35 +1,25 @@
-
-
 <div id="viewport">
   <ul class="stack" id="img-source">
     <li class="spades">
-       <img src="<%= @item.image_url400 %>" alt="">
-
+      <img src="<%= @item.image_url400 %>" alt="">
         <div class="yes"></div>
         <div class="no"></div>
     </li>
   </ul>
 </div>
-
 <div id="item-details">
   <p><%= @item.name %></p>
   <p>$<%= @item.price %> AUD</p>
 </div>
 
-
-
 <%= render 'history' %>
 <%= render '/xxx/cat/color' %>
-
-
-
-
 
 
 <script>
 
 var swingIt = function(){
-
+  
   var config = {
     minThrowOutDistance: 1000,
     throwOutConfidence: function (offset, element) {
