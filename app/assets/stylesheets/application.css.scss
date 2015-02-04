@@ -342,10 +342,11 @@ a {
   .select-gender {
     background-image: url('http://i.imgur.com/uQipJkN.jpg?1');
     width: 100%;
+    height: 100%;
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom: 157%;
+ /*   padding-bottom: 157%;*/
     height: 0;
     text-align: center;
     position: fixed;
@@ -376,12 +377,16 @@ a {
 @media screen and (min-width: 600px) {
     .select-gender {
     background-image: url('http://i.imgur.com/uQipJkN.jpg?1');
-    width: 15em;
-    height: 50em;
+    position: absolute;
+    height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center top;
     text-align: center;
+    background-size        : cover;
+    -webkit-background-size: cover;
+    -moz-background-size   : cover;
+    -o-background-size     : cover;
   }
 
   .select-buttons-div {
